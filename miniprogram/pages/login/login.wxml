@@ -1,0 +1,1 @@
+<view class="container"><view class="card"><view class="title">用户登录</view><input placeholder="用户名" value="{{username}}" data-key="username" bindinput="bind"/><input password placeholder="密码" value="{{password}}" data-key="password" bindinput="bind"/><button bindtap="login">登录</button><view class="muted">演示账号：demo / 123456</view></view></view>
